@@ -22,8 +22,8 @@ public class Main {
             switch (opcao){
                 case 1:
                     System.out.println("Digite o nome do aluno:");
-                    alunos.add(entrada.next());
-                    //alunos.add(entrada.nextLine());
+                    entrada.nextLine();
+                    alunos.add(entrada.nextLine());
                     break;
                 case 2:
                     for(int i = 0; i < alunos.size(); i++){
